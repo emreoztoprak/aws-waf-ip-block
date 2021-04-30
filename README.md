@@ -21,3 +21,7 @@ Now we can query our waf logs on Athena. This query will give us IP addresses wh
     ORDER BY count DESC
     
  Another thing is that you have to create an IP set and add it to the web acl. After you can use this ip set in the lambda function.
+ 
+ 
+ 
+ https://engineering.teknasyon.com/blocking-malicious-ip-using-aws-waf-2e5c4ed2defb
